@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: #3F704D;
+}
+header{
+    background-color: #0C0404;
+    text-align: center;
+    padding: 100px;
+}
+nav a{
+    float: left;
+    width: 25%;
+}
+#header_text{
+    color: white;
+    text-align: left;
+    padding: 50px;
+    padding-bottom: 0;
+    font-family: 'Cookie', cursive;
+}
