@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div id = "section1">
         <header>
             <nav>
-                <a href="#home">HOME</a>
-                <a href="#about">ABOUT ME</a>
-                <a href="#skills">SKILLS</a>
-                <a href="#contact">CONTACT</a>
+                <a href="#home" onmouseover="bigText(this)" onmouseout="normalText(this)">HOME</a>
+                <a href="#about"  onmouseover="bigText(this)" onmouseout="normalText(this)">ABOUT ME</a>
+                <a href="#skills"  onmouseover="bigText(this)" onmouseout="normalText(this)">SKILLS</a>
+                <a href="#contact"  onmouseover="bigText(this)" onmouseout="normalText(this)">CONTACT</a>
             </nav>
             <div id="header_text">
                 <p>I'm a<p>
-                <h1>SOFTWARE ENGINNER & 3D DESIGNER .</h1>
+                <h1><span>SOFTWARE ENGINNER & 3D DESIGNER .</span></h1>
             </div>   
         </header>
     </div>
@@ -52,6 +53,7 @@
             </div>
             <div class="icon2">
                 <img src="./3d-view.png" alt="code icon">
+                <figcaption>>
                 <figcaption>
                     <a href="">3D Design</a>
                 </figcaption>

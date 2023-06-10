@@ -22,11 +22,12 @@ header{
 nav a{
     float: left;
     width: 25%;
+    font-size: 20px;
 }
 #header_text{
     color: white;
     text-align: left;
-    padding: 50px;
+    padding: 70px;
     padding-bottom: 0;
     font-family: 'Cookie', cursive;
 }
@@ -62,6 +63,7 @@ figure{
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
     padding: 50px;
+    ;
 }
 
 footer{
