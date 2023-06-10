@@ -54,8 +54,14 @@ span{
 #skills{
     background-color: #0C0404;
     color: white;
-    text-align: center;
-    
+    text-align: center;  
+    padding: 20px;
+}
+figure{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    padding: 50px;
 }
 
 footer{
