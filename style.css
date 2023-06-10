@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway&display=swap');
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}
 * {
     margin: 0;
     padding: 0;
@@ -50,11 +55,9 @@ span{
     background-color: #0C0404;
     color: white;
     text-align: center;
-    padding: 30px;
+    
 }
-.material-symbols-outlined{
-    font-size: 100%;
-}
+
 footer{
     background-color: #171717;
     text-align: center;
