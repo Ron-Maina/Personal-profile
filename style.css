@@ -10,7 +10,7 @@ a:visited{
     color: #3DED97;
 }
 header{
-    background-color: #0C0404;
+    background-image: url("wallpaper-mania.com_High_resolution_wallpaper_background_ID_77700372680.jpg");
     text-align: center;
     padding: 100px;
 }
@@ -46,3 +46,18 @@ nav a{
 span{
     color: #3DED97;
 }   
+#skills{
+    background-color: #0C0404;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.material-symbols-outlined{
+    font-size: 100%;
+}
+footer{
+    background-color: #171717;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
