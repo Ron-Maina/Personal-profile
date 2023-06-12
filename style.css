@@ -32,7 +32,8 @@ nav a{
     font-family: 'Cookie', cursive;
 }
 #about{
-    background-color: #171717;
+    background: radial-gradient(circle at 50.1% 49.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+   /*background-color: #232023;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,9 +64,17 @@ figure{
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
     padding: 50px;
-    ;
+    position: relative;
+
+
 }
 
+figure #icon2{
+    padding-top: 5px;
+}
+figure #icon2 figcaption{
+    padding-top: 10px;
+}
 footer{
     background-color: #171717;
     text-align: center;
